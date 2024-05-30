@@ -1,78 +1,119 @@
--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="styles.css">
     
     <title>FL Studio</title>
 </head>
 <body>
-    <header>
-        <h1>Letöltés</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Főoldal</a></li>
-                <li><a href="tortenet.html">Történte</a></li>
-                <li><a href="pluginok.html">Pluginok</a></li>
-                <li><a href="letoltesek.html">Letöltések</a></li>
-                <li><a href="vasarlas.html">Vásárlás</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="mb-4">
+            <h1 class="text-center">Letöltés</h1>
+            <nav>
+                <ul class="nav nav-pills justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Főoldal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tortenet.html">Történet</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pluginok.html">Pluginok</a></li>
+                    <li class="nav-item"><a class="nav-link" href="letoltesek.html">Letöltések</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vasarlas.html">Vásárlás</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <a href="https://support.image-line.com/redirect/flstudio_win_installer"><img src="flogo.png" alt="Fl Studio" style="width: 200px;;height: 200px;px;"></a>
-    
-<div class="tabs-contents">
-    <div class="tab-content is-active" id="tab-description">
-        <h2 class="inset_google">Az Image Line FL Studio 21 Producer Edition mindent biztosít, amire szüksége van a professzionális minőségű elektronikus alapú zene komponálásához, hangszereléséhez, rögzítéséhez, szerkesztéséhez, keveréséhez és elsajátításához! Inspirációt és képességeket ad, hogy ötleteit az agyából a hangszóróiba vigye – a lehető leggyorsabb módon!</h3>
-        <ul class="blst">
-            <li>UKorlátlan többsávos hangrögzítés</li>
-            <li>Hangszerkesztés</li>
-            <li>MIDI Sequencing</li>
-            <li>Multitouch támogatás</li>
-            <li>Élő előadásmód</li>
-            <li>30 lágy szintetizátor és 40 effekt plug-in</li>
-            <li>Step Sequencer vagy Piano Roll</li>
-            <li>VST és AU beépülő modulok</li>
-        </ul>
-    <h3>Az Image Line FL Studio 21 Producer Edition beépülő moduljait tartalmazza</h3>
-        <ul class="blst">
-            <li>Sytrus</li>
-            <li>Maximus</li>
-            <li>Edison</li>
-            <li>Slicex</li>
-            <li>Vocodex</li>
-            <li>FLEX</li>
-            <li>FL Flowstone</li>
-            <li>GMSynth</li>
-            <li>Bassdrum</li>
-        </ul>
-    <h3>Az Image Line FL Studio 21 Producer Edition specifik</h3>
-    <ul class="blst">
-            <li><strong>Rendszerkövetelmények:</strong>
-            <ul class="blst">
-            <li><strong>Windows:</strong>
-            <ul class="blst">
-            <li><strong>Windows verzió:</strong> 8 8.1, 10, 11 vagy újabb</li>
-            <li><strong>Lemezterület:</strong> 4GB</li>
-            <li><strong>RAM:</strong> 4GB</li>
-            <li><strong>CPU:</strong> Intel és AMD CPU. Az ARM nem támogatott minél erősebb a CPU, annál több hangszer és effekt futtatható</li>
-</ul></li>
-                <li><strong>macOS:</strong>
-                    <ul class="blst">
-                        <li><strong>macOS verzió:</strong> 10.13.6 (High Sierra) vagy újabb</li>
-                         <li><strong>Lemezterület:</strong> 4GB</li>
-                        <li><strong>RAM:</strong> 4GB</li>
-                        <li><strong>CPU:</strong> Intel vagy Apple Silicon CPU (minél erősebb a CPU, annál több hangszer és effekt használható</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
-<h3>Image Line FL Studio 21 Producer Edition Includes</h3>
-    <ul class="blst">
-        <li>License Key</li>
-    </ul>
-</div>
+        <div class="text-center mb-4">
+            <a href="https://support.image-line.com/redirect/flstudio_win_installer">
+                <img src="flogo.png" alt="Fl Studio" class="img-fluid" style="width: 200px; height: 200px;">
+            </a>
+        </div>
+
+        <div class="text-center mb-4">
+            <a href="https://support.image-line.com/redirect/flstudio_mac_installer">
+                <img src="c1xv49mx82z51.png" alt="Fl Studio" class="img-fluid" style="width: 200px; height: 200px;">
+            </a>
+        </div>
+
+        <div class="tabs-fluid display-5">
+            <div class="tab-content is-active mb-4" id="tab-description">
+                <h3 class="inset_google">Az Image Line FL Studio 21 Producer Edition mindent biztosít, amire szüksége van a professzionális minőségű elektronikus alapú zene komponálásához, hangszereléséhez, rögzítéséhez, szerkesztéséhez, keveréséhez és elsajátításához! Inspirációt és képességeket ad, hogy ötleteit az agyából a hangszóróiba vigye – a lehető leggyorsabb módon!</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Korlátlan többsávos hangrögzítés</li>
+                    <li class="list-group-item">Hangszerkesztés</li>
+                    <li class="list-group-item">MIDI Sequencing</li>
+                    <li class="list-group-item">Multitouch támogatás</li>
+                    <li class="list-group-item">Élő előadásmód</li>
+                    <li class="list-group-item">30 lágy szintetizátor és 40 effekt plug-in</li>
+                    <li class="list-group-item">Step Sequencer vagy Piano Roll</li>
+                    <li class="list-group-item">VST és AU beépülő modulok</li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <h3>Az Image Line FL Studio 21 Producer Edition beépülő moduljait tartalmazza</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Sytrus</li>
+                    <li class="list-group-item">Maximus</li>
+                    <li class="list-group-item">Edison</li>
+                    <li class="list-group-item">Slicex</li>
+                    <li class="list-group-item">Vocodex</li>
+                    <li class="list-group-item">FLEX</li>
+                    <li class="list-group-item">FL Flowstone</li>
+                    <li class="list-group-item">GMSynth</li>
+                    <li class="list-group-item">Bassdrum</li>
+                </ul>
+            </div>
+
+            <div class="mb-4">
+                <h3>Image Line FL Studio 21 Producer Edition Rendszerkövetelményei:</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Rendszerkövetelmények:</strong>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>Windows:</strong>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><strong>Windows verzió:</strong> 8 8.1, 10, 11 vagy újabb</li>
+                                    <li class="list-group-item"><strong>Lemezterület:</strong> 4GB</li>
+                                    <li class="list-group-item"><strong>RAM:</strong> 4GB</li>
+                                    <li class="list-group-item"><strong>CPU:</strong> Intel és AMD CPU. Az ARM nem támogatott minél erősebb a CPU, annál több hangszer és effekt futtatható</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item"><strong>macOS:</strong>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><strong>macOS verzió:</strong> 10.13.6 (High Sierra) vagy újabb</li>
+                                    <li class="list-group-item"><strong>Lemezterület:</strong> 4GB</li>
+                                    <li class="list-group-item"><strong>RAM:</strong> 4GB</li>
+                                    <li class="list-group-item"><strong>CPU:</strong> Intel vagy Apple Silicon CPU (minél erősebb a CPU, annál több hangszer és effekt használható)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Image Line FL Studio 21 Producer Edition Includes</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">License Key</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.tab-content').hide();
+            $('#tab-description').show();
+            
+            $('h3').click(function(){
+                var target = $(this).next('ul');
+                $('.tab-content').hide();
+                target.show();
+            });
+        });
+    </script>
+</body>
+</html>
